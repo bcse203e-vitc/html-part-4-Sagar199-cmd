@@ -1,0 +1,23 @@
+div{
+  height: 100px;
+  width: 50%;
+}
+
+.box1{
+  background-color: #e6f3fa;
+  border: 5px solid rgb(84, 84, 255);
+  padding: 50px;
+}
+
+.box2{
+  background-color: #fff3e0;
+  border: 5px dashed #e88738;
+  padding: 25px;
+  margin: 20px;
+}
+
+.box3{
+  background-color: #d0f5d2;
+  padding: 10px;
+  margin: 65px;
+}

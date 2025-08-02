@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box button {
+  width: 140px;
+  height: 65px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.save {
+  background-color: #28af60;
+}
+
+.save:hover {
+  background-color: #c0392c;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.save:active {
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cancel {
+  background-color: #c0392c;
+}
+
+.cancel:hover {
+  background-color: #2a80b9;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.cancel:active {
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.submit {
+  background-color: #2a80b9;
+}
+
+.submit:hover {
+  background-color: #28af60;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.submit:active {
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+}
